@@ -13,10 +13,10 @@
 <div class="form-container">
   <form>
     <label for="sleep">Choose the appropriate date:</label><br>
-    <input type="date" name="date"><br>
+    <input type="date" name="date" required="required"><br>
 
     <label for="sleep">Rate the quality of your sleep last night:</label><br>
-    <select id="sleep" name="sleep">
+    <select id="sleep" required="required" name="sleep">
       <option value="0">0</option>
       <option value="1">1</option>
       <option value="2">2</option>
@@ -30,14 +30,24 @@
       <option value="10">10</option>
     </select><br>
 
-    <label for="social">Estimated time spent interacting socially:</label><br>
-    <input type="number" id="social" name="social"><br>
+    <label for="social">Estimated time spent interacting socially (hours):</label><br>
+    <input type="number" required="required" id="social" name="social"
+           placeholder="0.0"
+           step="0.25"
+           min="0"
+           max="24"><br>
 
-    <label for="exercise">Time spent exercising:</label><br>
-    <input type="number" id="exercise" name="exercise"><br>
+    <label for="exercise">Time spent exercising (hours):</label><br>
+    <input type="number" required="required"
+           placeholder="0.0"
+           step="0.25"
+           min="0"
+           max="24"
+           id="exercise"
+           name="exercise"><br>
 
     <label for="goals">Rate your satisfaction with your goals set for today:</label><br>
-    <select id="goals" name="goals">
+    <select id="goals" required="required" name="goals">
       <option value="0">0</option>
       <option value="1">1</option>
       <option value="2">2</option>
@@ -52,7 +62,7 @@
     </select><br>
 
     <label for="stress">Rate your particular stress level:</label><br>
-    <select id="stress" name="stress">
+    <select id="stress" required="required" name="stress">
       <option value="0">0</option>
       <option value="1">1</option>
       <option value="2">2</option>
@@ -68,7 +78,7 @@
 
 
     <label for="mood">Rate your current mood:</label><br>
-    <select id="mood" name="mood">
+    <select id="mood" required="required" name="mood">
       <option value="0">0</option>
       <option value="1">1</option>
       <option value="2">2</option>

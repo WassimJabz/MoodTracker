@@ -24,3 +24,7 @@ body{
     width: auto;
     object-fit: contain;
 }
+
+.form-container input[type="number"]{
+
+}
