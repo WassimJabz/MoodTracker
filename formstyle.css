@@ -16,7 +16,8 @@ body{
     font-size: 50px;
     align-self: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 1%;
+    text-align: center;
+    margin-left: 8%;
 }
 
 #logo{
@@ -24,6 +25,8 @@ body{
     height: auto;
     width: auto;
     object-fit: contain;
+    margin-left: 2%;
+    display: block;
 }
 
 label{
