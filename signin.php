@@ -54,7 +54,7 @@
                     $_SESSION['loggedin'] = 1;
 
                     //Redirecting to the home page
-                    header('Location: http://moodtracker.byethost3.com/home.html');
+                    header('Location: http://moodtracker.byethost3.com/index.php');
                 }
 
                 //If the account is not verified yet
